@@ -28,5 +28,4 @@ end
 
 def selects_bear_that_killed_Tim
   "SELECT * FROM bears WHERE id = 8"
- # "SELECT name FROM bears WHERE name IS NULL, age = 20, gender = 'M', color = 'black', temperament = 'aggressive', alive = 0"
 end
