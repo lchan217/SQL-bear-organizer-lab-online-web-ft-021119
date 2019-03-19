@@ -24,7 +24,7 @@ def selects_most_prominent_color_and_returns_with_count
   # FROM bears
   # GROUP BY color"
   
-  "SELECT 'color', count(*) max"
+  "SELECT color, COUNT (*) MAX FROM bears"
 #   SELECT "name", count(*) maximum FROM "users" 
 #   INNER JOIN "microposts" ON "microposts"."user_id" = "users"."id" 
 # GROUP BY users.id 
