@@ -23,6 +23,12 @@ def selects_most_prominent_color_and_returns_with_count
   # FROM (SELECT color, COUNT (color) mycount
   # FROM bears
   # GROUP BY color"
+  
+#   SELECT "name", count(*) maximum FROM "users" 
+#   INNER JOIN "microposts" ON "microposts"."user_id" = "users"."id" 
+# GROUP BY users.id 
+# ORDER BY maximum DESC 
+# LIMIT 1
 end
 
 def counts_number_of_bears_with_goofy_temperaments
